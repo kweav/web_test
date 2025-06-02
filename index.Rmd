@@ -12,7 +12,7 @@ Banner text!
 
 This website was created with the OTTR_Template_Website template. This enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. **This change is testing whether or not render will work when a change hits main.** 
 
-I've added the robot as a colaborator too. Not sure why I was getting the actions error I was seeing otherwise.
+I've added the robot as a colaborator too. Not sure why I was getting the actions error I was seeing otherwise. The error was not the bot. I needed to enable actions workflow permissions in settings. `Settings -> Action -> General -> Workflow permissions and choose read and write permissions`
 
 Here is how you can include images in your website pages (this one is saved in `resources/images` to keep things tidy:
 
