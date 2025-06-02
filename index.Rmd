@@ -14,7 +14,7 @@ This website was created with the OTTR_Template_Website template. This enables s
 
 I've added the robot as a colaborator too. Not sure why I was getting the actions error I was seeing otherwise. The error was not the bot. I needed to enable actions workflow permissions in settings. `Settings -> Action -> General -> Workflow permissions and choose read and write permissions`
 
-Trying to have the base ottr-preview GHA install docker directly. And trying it again a different way.
+Trying to have the base ottr-preview GHA install docker directly. And trying it again a different way. And again trying another way.
 
 Here is how you can include images in your website pages (this one is saved in `resources/images` to keep things tidy:
 
