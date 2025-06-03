@@ -18,6 +18,8 @@ Trying to have the base ottr-preview GHA install docker directly. And trying it 
 
 This time I'm not even trying to install docker. I noticed that the action only deletes the docs folder if preview is set to false, so seeing what happens if we don't have that.
 
+Another edit to retrigger rendering -- I've decided it might be a workflow file issue and not an ottr-preview issue because the pull request log doesn't show grabbing a container until docker realizes it doesn't have one. The render log shows pulling a container much earlier, and then doesn't seem to have access to it. So I moved the image from the render-site down to with: docker_image: for the run render step itself.
+
 Here is how you can include images in your website pages (this one is saved in `resources/images` to keep things tidy:
 
 ```{r, fig.align='center', fig.alt= "Example image", echo = FALSE, out.width="30%"}
