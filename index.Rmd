@@ -8,6 +8,8 @@ output:
 Banner text!  
 </div>
 
+Adding text for a practice PR to merge
+
 ### **About**
 
 This website was created with the OTTR_Template_Website template. This enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. **This change is testing whether or not render will work when a change hits main.** 
